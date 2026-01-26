@@ -1,4 +1,4 @@
-// 1. Problem Summary (GitHub-safe)
+// 1. Problem Summary
 
 // Given an integer array and a value val, remove all occurrences of val in-place and return the number of elements that are not equal to val.
 // The first k elements of the array should contain the remaining elements; the order of elements can be changed.

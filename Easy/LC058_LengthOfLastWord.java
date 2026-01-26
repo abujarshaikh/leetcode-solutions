@@ -1,4 +1,4 @@
-// 1. Problem Summary (GitHub-safe)
+// 1. Problem Summary
 
 // Given a string containing words and spaces, return the length of the last word.
 // A word is defined as a maximal substring of non-space characters.
@@ -18,3 +18,11 @@
 // Time Complexity: O(n) — traverse the string once
 
 // Space Complexity: O(1) for the backward iteration approach (O(n) if using split)
+
+class Solution {
+     public int lengthOfLastWord(String s) {
+          String[] arr = s.split(" ");
+          String str = (arr[arr.length - 1]);
+          return str.length();
+     }
+}

@@ -1,4 +1,4 @@
-// 1. Problem Summary (GitHub-safe)
+// 1. Problem Summary
 
 // Given a sorted integer array, remove duplicates in-place so that each unique element appears only once. Return the number of unique elements k and ensure the first k elements contain the sorted unique values.
 

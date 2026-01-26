@@ -1,3 +1,5 @@
+// 1. Problem Summary
+
 // You are given an integer array and a target value.
 // Your task is to find two different elements in the array whose sum is equal to the given target.
 

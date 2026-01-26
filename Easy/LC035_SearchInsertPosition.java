@@ -1,4 +1,4 @@
-// 1. Problem Summary (GitHub-safe)
+// 1. Problem Summary
 
 // Given a sorted array of distinct integers, return the index of a target value if it exists.
 // If the target is not in the array, return the index where it would be inserted to maintain sorted order. The solution must run in O(log n) time.

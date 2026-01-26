@@ -1,4 +1,4 @@
-// 1. Problem Summary (GitHub-safe)
+// 1. Problem Summary
 
 // Given two strings, haystack and needle, find the index of the first occurrence of needle in haystack.
 // Return -1 if needle does not appear.

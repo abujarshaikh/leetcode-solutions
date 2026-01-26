@@ -1,4 +1,4 @@
-// 1. Problem Summary (GitHub-safe)
+// 1. Problem Summary
 
 // Given the heads of two sorted linked lists, merge them into a single sorted linked list by splicing together the nodes of the original lists. Return the head of the merged list.
 

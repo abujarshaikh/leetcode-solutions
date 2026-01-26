@@ -1,4 +1,4 @@
-// 1. Problem Summary (GitHub-safe)
+// 1. Problem Summary
 
 // Given a string containing only ()[]{}, check if it is valid.
 // A string is valid if every opening bracket has a corresponding closing bracket of the same type and the brackets are closed in the correct order.

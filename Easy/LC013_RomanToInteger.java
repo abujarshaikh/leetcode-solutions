@@ -1,4 +1,4 @@
-// Problem Summary (in your own words – GitHub-safe)
+// 1. Problem Summary
 
 // Given a string representing a Roman numeral, convert it into its corresponding integer value by applying standard Roman numeral rules, including subtraction cases.
 

@@ -1,3 +1,5 @@
+// 1. Problem Summary
+
 // Given an integer, determine whether it reads the same forward and backward.
 // If the number remains unchanged when its digits are reversed, it is a palindrome; otherwise, it is not.
 // Approach

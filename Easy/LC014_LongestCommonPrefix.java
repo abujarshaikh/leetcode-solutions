@@ -1,4 +1,4 @@
-// 1. Problem Summary (in your own words – GitHub-safe)
+// 1. Problem Summary
 
 // Given an array of strings, determine the longest prefix that appears at the beginning of every string.
 // If the strings do not share any common starting characters, return an empty string.
