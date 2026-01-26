@@ -1,4 +1,4 @@
-// 1. Problem Summary (GitHub-safe)
+// 1. Problem Summary
 
 // Given two strings representing binary numbers, compute their sum and return the result as a binary string. The input strings contain only 0 and 1 and have no leading zeros (except "0").
 
@@ -20,20 +20,21 @@
 
 // Space Complexity: O(n) — for building the result string
 
-
 class Solution {
-    public String addBinary(String a, String b) {
-        int x=a.length()-1,y=b.length()-1,carry=0;
-        StringBuilder result=new StringBuilder();
-        while(x>=0||y>=0||carry==1){
-            int sum =carry;
+     public String addBinary(String a, String b) {
+          int x = a.length() - 1, y = b.length() - 1, carry = 0;
+          StringBuilder result = new StringBuilder();
+          while (x >= 0 || y >= 0 || carry == 1) {
+               int sum = carry;
 
-            if(x>=0) sum+=a.charAt(x--)-'0';
-            if(y>=0) sum+=b.charAt(y--)-'0';
+               if (x >= 0)
+                    sum += a.charAt(x--) - '0';
+               if (y >= 0)
+                    sum += b.charAt(y--) - '0';
 
-            result.append(sum%2);
-            carry=sum/2;
-        }
-        return result.reverse().toString();
-    }
+               result.append(sum % 2);
+               carry = sum / 2;
+          }
+          return result.reverse().toString();
+     }
 }
