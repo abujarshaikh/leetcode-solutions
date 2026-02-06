@@ -1,4 +1,4 @@
-// Problem Summary (in your own words)
+// Problem Summary 
 
 // Given two integer arrays, find all values that appear in both arrays. Each common value should appear only once in the result, and the order of the result does not matter.
 
