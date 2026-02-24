@@ -44,17 +44,18 @@
 
 // Since k ≤ 20, 2^k is manageable.
 
-
 class Solution {
-    public boolean hasAllCodes(String s, int k) {
-        if(s.length()<k)return false;
+     public boolean hasAllCodes(String s, int k) {
+          if (s.length() < k)
+               return false;
 
-        int req=1<<k;
-        Set<String> set=new HashSet<>();
-        for(int i=0;i<=s.length()-k;i++){
-            set.add(s.substring(i,i+k));
-            if(set.size()==req)return true;
-        }
-        return false;
-    }
+          int req = 1 << k;
+          Set<String> set = new HashSet<>();
+          for (int i = 0; i <= s.length() - k; i++) {
+               set.add(s.substring(i, i + k));
+               if (set.size() == req)
+                    return true;
+          }
+          return false;
+     }
 }
